@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') { 
             steps { 
                 // Checkout code from GitHub 
-                git 'https://github.com/your-username/node-ci-cd-pipeline.git' 
+                git 'https://github.com/CodeNinja-Omkar/node-ci-cd-pipeline.git' 
             } 
         } 
  
